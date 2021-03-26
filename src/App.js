@@ -6,6 +6,7 @@ import About from "./components/pages/About/About"
 import Portfolio from "./components/pages/Portfolio/Portfolio"
 import Art from "./components/pages/Art/Art"
 import Resume from "./components/pages/Resume/Resume"
+import Contact from "./components/pages/Contact/Contact"
 
 import Footer from "./components/Footer/index"
 
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/portfolio" component={Portfolio}/>
             <Route exact path="/art" component={Art}/>
             <Route exact path="/resume" component={Resume}/>
+            <Route exact path="/contact" component={Contact} />
           </Switch>
           <Footer/>
         </div>

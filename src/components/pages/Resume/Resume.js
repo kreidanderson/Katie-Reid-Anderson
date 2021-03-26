@@ -11,7 +11,7 @@ const Resume = () => {
   <div className="container">
 
   <object className="resume" data={resume}>
-  <p><a href={resume}>Download Here</a></p>
+  <p><a href={resume} download>Download Here</a></p>
     <img className="resumeImg" src={resimg}/>
 </object>
 
@@ -24,6 +24,3 @@ const Resume = () => {
 
 
 export default Resume;
-
-{/* <embed className="resume" src={resume} />
-<img className="resume" src={resume}></img> */}
