@@ -5,12 +5,12 @@ const About = () => {
 
     
   return (
-<div className="jumbotron jumbotron-fluid">
+<div className="">
   <div className="container">
 
     <img
           style={{ height: 250, }}
-          className="headshot float-right"
+          className="headshot"
           src="https://kreidanderson.github.io/Resp_Portfolio/assets/images/KRA.jpg"
           alt="Headshot"
         />

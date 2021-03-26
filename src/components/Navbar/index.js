@@ -67,16 +67,23 @@ function Navbar() {
             <a
               className="nav-link"
               style={{ fontFamily: `'Open Sans', 'sans-serif'`, fontSize: 14 }}
-              href="/contact"
+              href="/art"
             >
-              CONTACT
+              ART
+            </a>
+            <a
+              className="nav-link"
+              style={{ fontFamily: `'Open Sans', 'sans-serif'`, fontSize: 14 }}
+              href="/resume"
+            >
+              RÉSUMÉ
             </a>
             <a
               className="nav-link"
               style={{ fontFamily: `'Open Sans', 'sans-serif'`, fontSize: 14 }}
               href="/contact"
             >
-              ART
+              CONTACT
             </a>
           </div>
         </div>
