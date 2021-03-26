@@ -1,0 +1,9 @@
+.jumbotron{
+    padding: 100px
+}
+
+.headshot{
+    border-radius: 60%;
+    position: relative;
+    top: -40px;
+}

@@ -1,0 +1,38 @@
+
+div.container-fluid.prairieNavbar{
+    background-color: rgb(255, 255, 255);
+}
+img{
+    background-color: white;
+}
+div.row{
+    background-color: white;
+}
+div#navbarNavAltMarkup.collapse.navbar-collapse{
+    background-color: white;
+}
+
+a.nav-link{
+    background-color: white;
+}
+
+div.col.logo-slot.prairieNavbar{
+    padding-right: 0;
+    margin-right: 0;
+    justify-content: right;
+    right: 20
+}
+
+.espWineBeer{
+    padding-left:20px
+  
+}
+
+div.navbarTitle{
+    background-color: white;
+}
+
+.navbarTitle{
+    padding: 2%;
+    margin:  2%
+}
