@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import resume from "./KRA.pdf"
+import resimg from "./resumeimg.png"
 
 const Resume = () => {
 
@@ -9,8 +10,10 @@ const Resume = () => {
 <div className="">
   <div className="container">
 
-  <embed className="resume" src={resume} />
-
+  <object className="resume" data={resume}>
+  <p><a href={resume}>Download Here</a></p>
+    <img className="resumeImg" src={resimg}/>
+</object>
 
   </div>
 </div>
@@ -18,4 +21,9 @@ const Resume = () => {
   );
 };
 
+
+
 export default Resume;
+
+{/* <embed className="resume" src={resume} />
+<img className="resume" src={resume}></img> */}
