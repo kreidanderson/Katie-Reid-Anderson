@@ -6,35 +6,19 @@ import "./style.css";
 const Contact= () => {
 
   return (
-<div className="">
-<div className="container">
-	<form>
-    <label for="username">
-				<i className="far fa-user"></i>Your Name
-			</label>
-		<div className="field" tabindex="1">
-			<input name="username" type="text" placeholder="Full Name" required/>
-		</div>
-        <label for="email">
-				<i className="far fa-envelope"></i>Your Email
-			</label>
-		<div className="field" tabindex="2">
-			<input name="email" type="text" placeholder="email@domain.com" required/>
-		</div>
-        <label for="message">
-				<i className="far fa-edit"></i>Your Message
-			</label>
-		<div className="field" tabindex="3">
-			<textarea name="message" placeholder="Message" required></textarea>
-		</div>
-		<button type="reset">Send Me Message</button>
-		<div className="social-media">
-			<span>
-				Get In Touch<i className="fas fa-long-arrow-alt-right"></i>
-			</span>
-		</div>
-	</form>
-</div>
+<div class="contactcontainer">  
+  <form id="contact" action="" method="post">
+    <h3>Let's Chat</h3>
+    <h4>Get in touch re: web dev, art, or just to say hi.</h4>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus/>
+<a><h5>kreidanderson@gmail.com</h5></a>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required/>
+
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+
+  </form>
 </div>
 
   );
