@@ -107,7 +107,9 @@ const Portfolio = () => {
             />
             <div className="container">
               <p className="img_description">
-              This app uses node so the user can add all of their team members, their employee information, and respective roles to a pre-developed webpage.                <a
+              This app uses node so the user can add all of their team members, their employee information, and respective roles to a pre-developed webpage.  
+              <br></br>         
+                   <a
                   className="img_github"
                   href="https://github.com/kreidanderson/team-generator"
                 >
@@ -195,7 +197,8 @@ const Portfolio = () => {
             />
             <div className="container">
               <p className="img_description">
-              A simple note taking page that takes the input of a user and allows them to come back later and view their notes.               <a
+              A simple note taking page that takes the input of a user and allows them to come back later and view their notes.       
+              <br></br>        <a
                   className="img_github"
                   href="https://github.com/kreidanderson/note_taker"
                 >
@@ -246,19 +249,10 @@ const Portfolio = () => {
       </div>
 
       <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-        <a>
-          <div className="img_wrap">
-            <img
-              src="https://i.ibb.co/YpVnV2k/passwordgen.png"
-              className="w-100 shadow-1-strong rounded mb-4"
-              alt=""
-            />
-            <p className="img_description">Describing The Project</p>
-          </div>
-        </a>
+
 
               {/* PASSWORD GENERATOR */}
-       <a href="https://kreidanderson.github.io/weather_db/" target="_blank">
+       <a href="https://kreidanderson.github.io/pw_gen/" target="_blank">
           <div className="img_wrap">
             <img
               src="https://i.ibb.co/YpVnV2k/passwordgen.png"
@@ -267,18 +261,18 @@ const Portfolio = () => {
             />
             <div className="container">
               <p className="img_description">
-              This app was created to populate any weather forecast a user wishes to see within the USA. 
-              <br></br>
+              This simple app allows the user to quickly generate a password according to their preference.
+                            <br></br>
               <a
                   className="img_github"
-                  href="https://github.com/kreidanderson/weather_db"
+                  href="https://github.com/kreidanderson/pw_gen"
                 >
                   GITHUB REPOSITORY
                 </a>
                 <br></br>
                 <a
                   className="img_deployed"
-                  href="https://kreidanderson.github.io/weather_db/"
+                  href="https://kreidanderson.github.io/pw_gen/"
                 >
                   DEPLOYED LINK
                 </a>
@@ -287,36 +281,91 @@ const Portfolio = () => {
           </div>
         </a>
 
-        <a>
+
+{/* DAILY PLANNER */}
+       <a href="https://kreidanderson.github.io/daily_scheduler/" target="_blank">
           <div className="img_wrap">
             <img
               src="https://i.ibb.co/1vwBFdH/scheduler.png"
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
-            <p className="img_description">Describing The Project</p>
+            <div className="container">
+              <p className="img_description">
+              A daily workday scheduler for the busy professional.                            <br></br>
+              <a
+                  className="img_github"
+                  href="https://github.com/kreidanderson/daily_scheduler"
+                >
+                  GITHUB REPOSITORY
+                </a>
+                <br></br>
+                <a
+                  className="img_deployed"
+                  href=" https://kreidanderson.github.io/daily_scheduler/"
+                >
+                  DEPLOYED LINK
+                </a>
+              </p>
+            </div>
           </div>
         </a>
 
-        <a>
+        {/* README GENERATOR */}
+       <a href="https://github.com/kreidanderson/node_readme" target="_blank">
           <div className="img_wrap">
             <img
               src="https://i.ibb.co/d7MNbHb/Screen-Shot-2020-11-24-at-9-41-58-PM.png"
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
-            <p className="img_description">Describing The Project</p>
+            <div className="container">
+              <p className="img_description">
+              Using node, this app quickly creates a readme for your coding project needs.                            <br></br>
+              <a
+                  className="img_github"
+                  href="https://github.com/kreidanderson/node_readme"
+                >
+                  GITHUB REPOSITORY
+                </a>
+                <br></br>
+                <p
+                  className="img_deployed"
+                >
+                  There is no deployed link, however, there is a video demonstration within the github repository.
+                </p>
+              </p>
+            </div>
           </div>
         </a>
 
-        <a>
+
+        {/* EMPLOYEE DIRECTORY */}
+       <a href="https://kra-employee-directory.herokuapp.com/" target="_blank">
           <div className="img_wrap">
             <img
               src="https://i.ibb.co/SQxvZgQ/emp-directory.png"
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
-            <p className="img_description">Describing The Project</p>
+            <div className="container">
+              <p className="img_description">
+            This app allows the user to sort and search for employees. Click the "First Name" or "Last Name" boxes to order alphabetically.                        <br></br>
+              <a
+                  className="img_github"
+                  href="https://github.com/kreidanderson/employee_directory"
+                >
+                  GITHUB REPOSITORY
+                </a>
+                <br></br>
+                <a
+                  className="img_deployed"
+                  href="https://kra-employee-directory.herokuapp.com/"
+                >
+                  DEPLOYED LINK
+                </a>
+              </p>
+            </div>
           </div>
         </a>
       </div>

@@ -36,6 +36,27 @@ a.img_github, a.img_deployed{
   }
 
   p.img_deployed{ 
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(81, 255, 0);
 }
+
+@media screen and (min-width: 800px) {
+    .img_description{
+       
+        font-size: 15px;
+    }
+    a.img_github, a.img_deployed{
+        font-size: 12px;
+    }
+
+  }
+  
+  @media screen and (max-width: 801px) {
+    .img_description{
+        font-size: 20px;
+        padding: 30px
+    }
+    a.img_github, a.img_deployed{
+        font-size: 15px;
+    }
+  }
