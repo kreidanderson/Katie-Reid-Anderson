@@ -5,6 +5,35 @@ const Portfolio = () => {
   return (
     <div className="row">
       <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    {/* PRAIRIE ESPRESSO */}
+    <a href="https://campgrounds-mapper.herokuapp.com/" target="_blank">
+          <div className="img_wrap">
+            <img
+              src="https://i.ibb.co/F3WSKSt/Prairie-draft.png"
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+            <div className="container">
+              <p className="img_description">
+               In the process of creating a personalized website for a local coffee shop.
+                <br></br>
+                <a
+                  className="img_github"
+                  href="https://github.com/kreidanderson/campgrounds_mapper"
+                >
+                  GITHUB REPOSITORY
+                </a>
+                <br></br>
+                <a
+                  className="img_deployed"
+                  href="https://campgrounds-mapper.herokuapp.com/"
+                >
+                  DEPLOYED LINK
+                </a>
+              </p>
+            </div>
+          </div>
+        </a>
 
     {/* CAMPGROUNDS MAPPER  */}
         <a href="https://campgrounds-mapper.herokuapp.com/" target="_blank">
