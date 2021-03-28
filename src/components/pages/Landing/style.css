@@ -1,0 +1,38 @@
+/* .jumbo{
+    padding:0;
+    margin:0
+    
+  }
+.lavender{
+    background-image: url("./lavender.jpg");
+    background-size: cover;
+    padding:300px
+} */
+.sky{
+    background-image: url("./sky.jpg");
+    background-size: cover;
+    padding:300px
+}
+/* .welcome  {
+    color: rgb(255, 255, 255);
+    text-shadow:3px 5px rgb(28, 105, 32);
+    font-size: 50px;
+    
+}
+
+div.row.linkrow{
+    background-color: rgba(240, 248, 255, 0);
+    color: 'white';
+    font-weight: 'bold';
+    font-family: 'Open Sans', 'sans-serif'
+}
+
+.linkwords{
+    color: 'white';
+    font-weight: 'bold';
+    font-family: 'Open Sans', 'sans-serif'
+}
+
+img{
+    background-color: rgba(250, 235, 215, 0);
+} */

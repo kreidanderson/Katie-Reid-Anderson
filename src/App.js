@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/index"
+import Landing from "./components/pages/Landing/Landing"
 import About from "./components/pages/About/About"
 import Portfolio from "./components/pages/Portfolio/Portfolio"
 import Art from "./components/pages/Art/Art"
@@ -16,6 +17,7 @@ function App() {
         <div className="App">
           <Navbar/>
           <Switch>
+          <Route exact path="/" component={Landing}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/portfolio" component={Portfolio}/>
             <Route exact path="/art" component={Art}/>
