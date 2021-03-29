@@ -9,9 +9,9 @@ function Landing() {
   <div className="jumbo lavender container">
   <p style={{color: 'white', fontFamily: `'Open Sans', 'sans-serif'`}} className="display-4 text-align-center welcome">Welcome!</p>
 <div className="row linkrow"> 
-<img style={{width:30}} src={developer} className="col"/>
-<img style={{width:35}} src={art} className="col"/>
-<img href="/resume" style={{width:30}} src={resume} className="col"/>
+<img style={{width:30, height:60}} src={developer} className="col"/>
+<img style={{width:35, height: 65}} src={art} className="col"/>
+<img href="/resume" style={{width:30, height:60}} src={resume} className="col"/>
 </div>
 <div className="row linkrow"> 
 <p style={{color: 'white', fontWeight: 'bold', fontFamily: `'Open Sans', 'sans-serif'`}}className="lead col"></p>
