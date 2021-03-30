@@ -170,7 +170,7 @@ const Portfolio = () => {
             />
             <div className="container">
               <p className="img_description">
-              The user updates employee information, roles, and departments all by following the steps in the terminal.                            <br></br>
+              Using a database, this app allows the user to enter a burger, 'eat it' and then it's added to a list of eaten burgers.<br></br>
                 <a
                   className="img_github"
                   href="https://github.com/kreidanderson/burger"
