@@ -275,6 +275,36 @@ const Portfolio = () => {
           </div>
         </a>
 
+              {/* FITNESS TRACKER */}
+       <a href="https://secret-citadel-45705.herokuapp.com/?id=60666692f544d300175365f0" target="_blank">
+          <div className="img_wrap">
+            <img
+              src="https://i.ibb.co/FJQbB9P/Screen-Shot-2021-04-01-at-8-35-20-PM.png"
+              className="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+            <div className="container">
+              <p className="img_description">
+              The Fitness Tracker allows the user to input which activities they're doing, the distance, the exercise duration, the number of reps, and more.  
+              <br></br>
+              <a
+                  className="img_github"
+                  href="https://github.com/kreidanderson/fitness-tracker"
+                >
+                  GITHUB REPOSITORY
+                </a>
+                <br></br>
+                <a
+                  className="img_deployed"
+                  href="https://secret-citadel-45705.herokuapp.com/?id=60666692f544d300175365f0"
+                >
+                  DEPLOYED LINK
+                </a>
+              </p>
+            </div>
+          </div>
+        </a>
+
       </div>
 
       <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
